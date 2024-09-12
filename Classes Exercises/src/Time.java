@@ -52,7 +52,6 @@ public class Time {
             if(minute >= 60){
                 minute = 0;
                 hour++;
-                setHour(hour + 1);
                 if(hour >= 24){
                     hour = 0;
                 }
@@ -69,7 +68,6 @@ public class Time {
             if(minute < 0){
                 minute = 59;
                 hour--;
-                setHour(hour - 1);
                 if(hour < 0){
                     hour = 23;
                 }
