@@ -88,7 +88,6 @@ class AccountTester {
 }
 
 class Printer {
-
     public static void printAccountInfos(Account acc) {
 
         System.out.println("ID: " + acc.getId());
