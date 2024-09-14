@@ -61,6 +61,17 @@ public class Book {
         return authorNames.toString();
     }
 
+    public String getAuthorEmails() {
+        StringBuilder authorEmails = new StringBuilder();
+        for (int i = 0; i < authors.length; i++) {
+            authorEmails.append(authors[i].getEmail());
+            if (i < authors.length -1) {
+                authorEmails.append(", ");
+            }
+        }
+        return authorEmails.toString();
+    }
+
     @Override
     public String toString() {
         return "Book{" +

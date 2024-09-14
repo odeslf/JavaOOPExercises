@@ -10,6 +10,7 @@ public class TestAuthor {
 
         Book book = new Book("Java Programming", authors, 59.99);
         System.out.println("Authors: " + book.getAuthorNames());
+        System.out.println("Author's email's : " + book.getAuthorEmails());
         System.out.println(book);
     }
 
